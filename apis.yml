@@ -1,0 +1,112 @@
+aid: brooks-brothers
+url: https://raw.githubusercontent.com/api-evangelist/brooks-brothers/refs/heads/main/apis.yml
+name: Brooks Brothers
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Retail
+  - Fashion
+  - Apparel
+  - Menswear
+  - Luxury Clothing
+description: 'Brooks Brothers is a historic American clothier founded in 1818 in New York City by Henry Sands Brooks, defining classic American tailored menswear, womenswear, and boyswear. After filing Chapter 11 bankruptcy on July 8, 2020 amid the COVID-19 pandemic, the brand was acquired in September 2020 by SPARC Group, a joint venture of Authentic Brands Group and Simon Property Group. SPARC subsequently merged with JCPenney in January 2025 to form Catalyst Brands, the brand''s current operating parent. Brooks Brothers operates roughly 150 retail stores plus an e-commerce presence at brooksbrothers.com.'
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+apis: []
+common:
+  - type: Website
+    url: https://www.brooksbrothers.com/
+  - type: Login
+    url: https://www.brooksbrothers.com/login
+  - type: SignUp
+    url: https://www.brooksbrothers.com/register
+  - type: StoreLocator
+    url: https://www.brooksbrothers.com/store-locator
+  - type: Heritage
+    url: https://www.brooksbrothers.com/our-heritage
+  - type: Careers
+    url: https://www.brooksbrothers.com/careers
+  - type: ContactUs
+    url: https://www.brooksbrothers.com/customer-service
+  - type: ParentCompany
+    url: https://www.catalystbrands.com/
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/brooks-brothers
+  - type: Features
+    data:
+      - name: Online Storefront
+        description: Direct-to-consumer e-commerce storefront at brooksbrothers.com selling men's, women's, and boys' apparel and accessories.
+      - name: Made to Measure Tailoring
+        description: In-store made-to-measure suiting and shirting program for personalized fit and customization.
+      - name: Monogramming
+        description: On-product monogramming service for shirts, accessories, and select apparel.
+      - name: Store Locator
+        description: Locator for the brand's approximately 150 U.S. retail stores and remaining international locations.
+      - name: Gift Cards
+        description: Physical and digital gift card sales redeemable online and in-store.
+      - name: International Shopping
+        description: International order routing and shipping support for select markets.
+      - name: Loyalty / Rewards
+        description: Brooks Brothers customer rewards and membership program providing points and member-only benefits.
+  - type: UseCases
+    data:
+      - name: Tailored Menswear Retail
+        description: Classic American tailored clothing, dress shirts, suits, and accessories sold through stores and e-commerce.
+      - name: Womenswear and Boyswear Retail
+        description: Women's and boys' apparel collections extending the Brooks Brothers brand beyond its menswear core.
+      - name: Made-to-Measure Suiting
+        description: Premium personalized tailoring program for suits, sport coats, and dress shirts.
+      - name: Heritage Brand Licensing
+        description: Brand licensing managed by Authentic Brands Group / Catalyst Brands for category and territory extensions.
+      - name: Omnichannel Retail
+        description: Integrated brick-and-mortar plus e-commerce experience with buy-online / ship-from-store fulfillment.
+  - type: Authentication
+    data:
+      - name: No Public API
+        description: Brooks Brothers does not publish a public developer API, developer portal, or OpenAPI specification. Account holders authenticate against the brooksbrothers.com storefront only. Affiliate partners integrate via third-party affiliate networks rather than a Brooks Brothers-operated API.
+  - type: Compliance
+    data:
+      - name: PCI DSS
+        description: Payment Card Industry Data Security Standard compliance for online and in-store card payments.
+      - name: CCPA
+        description: California Consumer Privacy Act compliance for California customers.
+      - name: GDPR
+        description: General Data Protection Regulation considerations for European and UK customers via international shipping and franchise markets.
+      - name: ADA / WCAG
+        description: Accessibility considerations under the Americans with Disabilities Act and Web Content Accessibility Guidelines for the brooksbrothers.com storefront.
+  - type: Integrations
+    data:
+      - name: Catalyst Brands
+        description: Catalyst Brands is the current operating parent of Brooks Brothers, formed in January 2025 through the merger of SPARC Group and JCPenney.
+      - name: Authentic Brands Group
+        description: Authentic Brands Group is the brand owner of Brooks Brothers (acquired September 2020 via SPARC Group joint venture) and remains a Catalyst Brands shareholder.
+      - name: Simon Property Group
+        description: Simon Property Group co-founded SPARC Group with Authentic Brands Group and acquired Brooks Brothers out of Chapter 11 in September 2020; remains a Catalyst Brands shareholder.
+      - name: SPARC Group
+        description: SPARC Group operated Brooks Brothers' retail and e-commerce business under license from Authentic Brands Group from 2020 until its January 2025 merger into Catalyst Brands.
+      - name: JCPenney
+        description: JCPenney merged with SPARC Group in January 2025 to form Catalyst Brands, joining Brooks Brothers in the same operating portfolio.
+      - name: Aéropostale
+        description: Sibling brand under the Catalyst Brands portfolio.
+      - name: Lucky Brand
+        description: Sibling brand under the Catalyst Brands portfolio.
+      - name: Nautica
+        description: Sibling brand under the Catalyst Brands portfolio.
+      - name: Rakuten Advertising
+        description: Third-party affiliate marketing network used for retail partner distribution.
+      - name: CJ Affiliate
+        description: Commission Junction affiliate program partner for retail partner distribution.
+  - type: History
+    data:
+      - name: Founded 1818
+        description: Founded April 7, 1818 in New York City by Henry Sands Brooks as H. & D. H. Brooks & Co., later renamed Brooks Brothers in 1850. The oldest continuously operating apparel brand in the United States.
+      - name: Chapter 11 Bankruptcy 2020
+        description: Filed Chapter 11 bankruptcy protection on July 8, 2020 driven by the COVID-19 pandemic's collapse of demand for tailored office wear. The flagship Madison Avenue store closed permanently during proceedings.
+      - name: SPARC Acquisition 2020
+        description: Acquired in September 2020 by SPARC Group, a joint venture between Authentic Brands Group and Simon Property Group, for approximately $325 million.
+      - name: Catalyst Brands Formation 2025
+        description: SPARC Group merged with JCPenney in January 2025 to form Catalyst Brands, the current operating parent of Brooks Brothers alongside Aéropostale, Lucky Brand, and Nautica.
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
