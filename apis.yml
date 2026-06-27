@@ -19,7 +19,7 @@ common:
     url: https://www.brooksbrothers.com/
   - type: Login
     url: https://www.brooksbrothers.com/login
-  - type: SignUp
+  - type: Signup
     url: https://www.brooksbrothers.com/register
   - type: StoreLocator
     url: https://www.brooksbrothers.com/store-locator
