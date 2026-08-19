@@ -23,7 +23,7 @@ tags:
 description: 'Brooks Brothers is a historic American clothier founded in 1818 in New York City by Henry Sands Brooks, defining classic American tailored menswear, womenswear, and boyswear. After filing Chapter 11 bankruptcy on July 8, 2020 amid the COVID-19 pandemic, the brand was acquired in September 2020 by SPARC Group, a joint venture of Authentic Brands Group and Simon Property Group. SPARC subsequently merged with JCPenney in January 2025 to form Catalyst Brands, the brand''s current operating parent. Brooks Brothers operates roughly 150 retail stores plus an e-commerce presence at brooksbrothers.com.'
 created: '2026-05-23'
 modified: '2026-05-23'
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 apis: []
 common:
   - type: DomainSecurity
